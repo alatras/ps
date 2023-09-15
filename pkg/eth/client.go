@@ -148,7 +148,6 @@ func (c *clientState) SubmitBlocks(merkleHashes []util.Hash, txInBlocks []uint32
 
 func (c *clientState) Deposit(amount *big.Int) (*types.Receipt, error) {
 	opts := CreateKeyedTransactor(c.privateKey)
-	opts.Value = amount
 
 	clientLogger.WithFields(logrus.Fields{
 		"amount":  amount.Text(10),
@@ -156,7 +155,7 @@ func (c *clientState) Deposit(amount *big.Int) (*types.Receipt, error) {
 	}).Info("depositing funds")
 
 	receipt, err := ContractCall(c.client, func() (*types.Transaction, error) {
-		return c.contract.Deposit(opts, crypto.PubkeyToAddress(c.privateKey.PublicKey))
+		return c.contract.Deposit(opts, crypto.PubkeyToAddress(c.privateKey.PublicKey), amount)
 	})
 	if err != nil {
 		return nil, err

@@ -259,27 +259,29 @@
     "type": "function"
   },
   {
+    "constant": true,
     "inputs": [],
-    "payable": false,
-    "stateMutability": "nonpayable",
-    "type": "constructor"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
+    "name": "token",
+    "outputs": [
       {
-        "indexed": false,
-        "name": "oldOperator",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "name": "newOperator",
+        "name": "",
         "type": "address"
       }
     ],
-    "name": "ChangedOperator",
-    "type": "event"
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "tokenAddress",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
   },
   {
     "anonymous": false,
@@ -459,20 +461,6 @@
     "constant": false,
     "inputs": [
       {
-        "name": "newOperator",
-        "type": "address"
-      }
-    ],
-    "name": "changeOperator",
-    "outputs": [],
-    "payable": false,
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "constant": false,
-    "inputs": [
-      {
         "name": "headers",
         "type": "bytes32[]"
       },
@@ -501,12 +489,16 @@
       {
         "name": "owner",
         "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
       }
     ],
     "name": "deposit",
     "outputs": [],
-    "payable": true,
-    "stateMutability": "payable",
+    "payable": false,
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
