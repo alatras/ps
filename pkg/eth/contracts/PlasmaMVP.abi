@@ -288,6 +288,23 @@
     "inputs": [
       {
         "indexed": false,
+        "name": "oldOperator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "newOperator",
+        "type": "address"
+      }
+    ],
+    "name": "ChangedOperator",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
         "name": "owner",
         "type": "address"
       },
@@ -456,6 +473,20 @@
     ],
     "name": "FinalizedExit",
     "type": "event"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newOperator",
+        "type": "address"
+      }
+    ],
+    "name": "changeOperator",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
   },
   {
     "constant": false,

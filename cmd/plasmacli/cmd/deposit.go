@@ -8,6 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/kyokan/plasma/pkg/chain"
 	"bytes"
+	"fmt"
 )
 
 type depositCmdOutput struct {
@@ -45,7 +46,8 @@ var depositCmd = &cobra.Command{
 		}
 
 		receipt, err := Deposit(client, amount)
-
+		
+		fmt.Printf("%v\n", err)
 		return PrintJSON(&depositCmdOutput{
 			TransactionHash: receipt.TransactionHash.Hex(),
 			ContractAddress: receipt.ContractAddress.Hex(),
@@ -61,6 +63,7 @@ func Deposit(client eth.Client, amount *big.Int) (*DepositReceipt, error) {
 		return nil, err
 	}
 
+	fmt.Printf("%v\n", receipt)
 	logData := receipt.Logs[0].Data
 	dataReader := bytes.NewReader(logData)
 	var depositNonce chain.UInt256
