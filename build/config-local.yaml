@@ -1,4 +1,4 @@
 node-url: "http://localhost:8545"
 db: "./.database"
-contract-addr: "0x3f6c622D32dA3BC70730C9E677ec343cb5acFe68"
+contract-addr: "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF"
 private-key: "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3"

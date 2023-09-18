@@ -2,13 +2,12 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/kyokan/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/eth"
 	"math/big"
 	"github.com/pkg/errors"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"bytes"
-	"fmt"
 )
 
 type depositCmdOutput struct {
@@ -47,7 +46,6 @@ var depositCmd = &cobra.Command{
 
 		receipt, err := Deposit(client, amount)
 		
-		fmt.Printf("%v\n", err)
 		return PrintJSON(&depositCmdOutput{
 			TransactionHash: receipt.TransactionHash.Hex(),
 			ContractAddress: receipt.ContractAddress.Hex(),
@@ -63,7 +61,6 @@ func Deposit(client eth.Client, amount *big.Int) (*DepositReceipt, error) {
 		return nil, err
 	}
 
-	fmt.Printf("%v\n", receipt)
 	logData := receipt.Logs[0].Data
 	dataReader := bytes.NewReader(logData)
 	var depositNonce chain.UInt256

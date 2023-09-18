@@ -3,9 +3,9 @@ package chain
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"math/big"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
-	"github.com/kyokan/plasma/pkg/rpc"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/rpc"
+	"github.com/ArtosSystems/plasma/util"
 	"encoding/json"
 	)
 

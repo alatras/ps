@@ -5,8 +5,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"errors"
-	"github.com/kyokan/plasma/pkg/chain"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/util"
 	)
 
 func Sign(privKey *ecdsa.PrivateKey, hash util.Hash) (chain.Signature, error) {

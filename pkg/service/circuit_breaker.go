@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
 	"sync/atomic"
 )

@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/kyokan/plasma/pkg/eth/contracts"
+	"github.com/ArtosSystems/plasma/pkg/eth/contracts"
 )
 
 func (c *clientState) filterOpts(start uint64) (*bind.FilterOpts, error) {

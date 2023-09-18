@@ -2,7 +2,7 @@ package chain
 
 import (
 	"math/big"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 )
 
 type BlockResult struct {

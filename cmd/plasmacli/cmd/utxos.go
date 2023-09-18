@@ -3,8 +3,8 @@ package cmd
 import (
 	"context"
 	"errors"
-	"github.com/kyokan/plasma/pkg/chain"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
 	"github.com/spf13/cobra"
 	"time"
 )

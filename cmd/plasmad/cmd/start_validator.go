@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/kyokan/plasma/internal/validator"
+	"github.com/ArtosSystems/plasma/internal/validator"
 	"github.com/spf13/viper"
 )
 

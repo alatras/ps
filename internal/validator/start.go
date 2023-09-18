@@ -1,17 +1,17 @@
 package validator
 
 import (
-	"github.com/kyokan/plasma/pkg/config"
+	"github.com/ArtosSystems/plasma/pkg/config"
 	"crypto/ecdsa"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/service"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/service"
 	"os"
 	"os/signal"
 	"path"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
 	"google.golang.org/grpc"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"context"
 )
 

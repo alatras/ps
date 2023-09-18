@@ -24,7 +24,7 @@ build-cross:
 	docker build ./build --no-cache -t plasma-cross-compilation:latest
 	mkdir -p ./target
 	docker run --name cp-tmp plasma-cross-compilation:latest /bin/true
-	docker cp cp-tmp:/go/src/github.com/kyokan/plasma/target/plasma ./target/plasma-linux-amd64
+	docker cp cp-tmp:/go/src/github.com/ArtosSystems/plasma/target/plasma ./target/plasma-linux-amd64
 	docker rm cp-tmp
 
 install:

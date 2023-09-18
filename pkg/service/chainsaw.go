@@ -2,15 +2,15 @@ package service
 
 import (
 	"time"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"math/big"
-	"github.com/kyokan/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/db"
 	"sync"
-	"github.com/kyokan/plasma/util"
-	"github.com/kyokan/plasma/pkg/merkle"
+	"github.com/ArtosSystems/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/merkle"
 )
 
 var logger = log.ForSubsystem("Chainsaw")

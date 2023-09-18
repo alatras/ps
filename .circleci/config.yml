@@ -16,7 +16,7 @@ jobs:
     #### expecting it in the form of
     ####   /go/src/github.com/circleci/go-tool
     ####   /go/src/bitbucket.org/circleci/go-tool
-    working_directory: /go/src/github.com/kyokan/plasma
+    working_directory: /go/src/github.com/ArtosSystems/plasma
     steps:
     - checkout
 
@@ -31,4 +31,4 @@ jobs:
     - run: make test-unit
 
     - store_artifacts:
-        path: /go/src/github.com/kyokan/plasma/target
+        path: /go/src/github.com/ArtosSystems/plasma/target

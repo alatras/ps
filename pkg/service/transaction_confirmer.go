@@ -3,13 +3,13 @@ package service
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"github.com/pkg/errors"
-	"github.com/kyokan/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/eth"
 	"bytes"
-	"github.com/kyokan/plasma/util"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
 	"github.com/ethereum/go-ethereum/common"
 )

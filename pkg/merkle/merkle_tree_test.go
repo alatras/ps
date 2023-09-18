@@ -2,7 +2,7 @@ package merkle
 
 import (
 	"testing"
-		"github.com/kyokan/plasma/util"
+		"github.com/ArtosSystems/plasma/util"
 		"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/stretchr/testify/require"
 )

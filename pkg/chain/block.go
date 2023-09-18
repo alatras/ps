@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"encoding/binary"
 	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 	"math/big"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
-	"github.com/kyokan/plasma/pkg/rpc"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/rpc"
 )
 
 type BlockHeader struct {

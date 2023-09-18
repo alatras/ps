@@ -1,15 +1,15 @@
 package service
 
 import (
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"errors"
 	"fmt"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/util"
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/validation"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/validation"
 )
 
 const MaxMempoolSize = 65534

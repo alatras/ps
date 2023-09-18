@@ -2,7 +2,7 @@ package db
 
 import (
 	"testing"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 	"github.com/stretchr/testify/require"
 	"bytes"
 )

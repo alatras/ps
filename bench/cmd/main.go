@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kyokan/plasma/bench"
+	"github.com/ArtosSystems/plasma/bench"
 	"os"
 	"runtime/trace"
 	"time"

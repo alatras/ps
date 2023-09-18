@@ -1,8 +1,8 @@
 package chain
 
 import (
-	"github.com/kyokan/plasma/pkg/rpc/pb"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/util"
 	"github.com/golang/protobuf/proto"
 )
 

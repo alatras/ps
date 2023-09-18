@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/kyokan/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/db"
 	"github.com/spf13/cobra"
 	"fmt"
 	"github.com/spf13/viper"

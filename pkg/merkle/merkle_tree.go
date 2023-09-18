@@ -2,7 +2,7 @@ package merkle
 
 import (
 	"encoding/binary"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 	"bytes"
 		"math"
 		)

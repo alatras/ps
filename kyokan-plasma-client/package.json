@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyokan/plasma.git"
+    "url": "git+https://github.com/ArtosSystems/plasma.git"
   },
   "keywords": [
     "plasma",
@@ -26,9 +26,9 @@
   "author": "Kyokan Group Incorporated",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kyokan/plasma/issues"
+    "url": "https://github.com/ArtosSystems/plasma/issues"
   },
-  "homepage": "https://github.com/kyokan/plasma#readme",
+  "homepage": "https://github.com/ArtosSystems/plasma#readme",
   "devDependencies": {
     "@types/chai": "4.1.7",
     "@types/chai-as-promised": "7.1.0",

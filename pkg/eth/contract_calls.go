@@ -2,7 +2,7 @@ package eth
 
 import (
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 	"time"
 	"errors"
 	"github.com/ethereum/go-ethereum/ethclient"

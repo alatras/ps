@@ -1,15 +1,15 @@
 package service
 
 import (
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
 	"context"
 	"time"
 	"io"
-	"github.com/kyokan/plasma/pkg/chain"
-	"github.com/kyokan/plasma/pkg/validation"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/validation"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
 	)
 

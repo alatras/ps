@@ -4,17 +4,17 @@ import (
 	"context"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/kyokan/plasma/pkg/chain"
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/rpc"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/rpc"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
 	"google.golang.org/grpc"
 	"net"
 	"github.com/pkg/errors"
-	"github.com/kyokan/plasma/pkg/log"
+	"github.com/ArtosSystems/plasma/pkg/log"
 	"github.com/sirupsen/logrus"
 	"time"
-	"github.com/kyokan/plasma/pkg/service"
+	"github.com/ArtosSystems/plasma/pkg/service"
 )
 
 type Server struct {

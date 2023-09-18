@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"github.com/ethereum/go-ethereum/common"
 	"math/big"
 )

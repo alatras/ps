@@ -87,7 +87,7 @@ Plasma specific setup:
 
 ```bash
 mkdir -p $GOPATH/src/github.com/kyokan
-git clone https://github.com/kyokan/plasma.git
+git clone https://github.com/ArtosSystems/plasma.git
 cd plasma
 make deps # installs git-submodules / go dependencies / node dependencies
 make abigen # compiles smart-contracts via truffle

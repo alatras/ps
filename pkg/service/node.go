@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"log"
 	"time"
-	"github.com/kyokan/plasma/pkg/db"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/util"
 )
 
 type PlasmaNode struct {

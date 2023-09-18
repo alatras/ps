@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kyokan/plasma/cmd/harness/cmd"
+import "github.com/ArtosSystems/plasma/cmd/harness/cmd"
 
 func main() {
 	cmd.Execute()

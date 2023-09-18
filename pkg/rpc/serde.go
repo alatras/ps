@@ -2,7 +2,7 @@ package rpc
 
 import (
 	"encoding/hex"
-	"github.com/kyokan/plasma/pkg/rpc/pb"
+	"github.com/ArtosSystems/plasma/pkg/rpc/pb"
 	"math/big"
 	"github.com/ethereum/go-ethereum/common"
 	"strings"

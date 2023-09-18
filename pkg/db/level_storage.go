@@ -1,13 +1,13 @@
 package db
 
 import (
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"math/big"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/kyokan/plasma/util"
-	"github.com/kyokan/plasma/pkg/merkle"
+	"github.com/ArtosSystems/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/merkle"
 	"github.com/golang/protobuf/proto"
 	"time"
 	"strings"

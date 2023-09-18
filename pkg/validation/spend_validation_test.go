@@ -3,9 +3,9 @@ package validation
 import (
 	"github.com/stretchr/testify/suite"
 	"testing"
-	"github.com/kyokan/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/db"
 	"io/ioutil"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"encoding/json"
 	"math/big"
 	"github.com/syndtr/goleveldb/leveldb"
@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 		"crypto/ecdsa"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/kyokan/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/eth"
 	"crypto/rand"
 )
 

@@ -5,9 +5,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"math/big"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/kyokan/plasma/pkg/chain"
-	"github.com/kyokan/plasma/pkg/eth/contracts"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/eth/contracts"
+	"github.com/ArtosSystems/plasma/util"
 )
 
 type EthClientMock struct {

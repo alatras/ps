@@ -2,16 +2,16 @@ package validation
 
 import (
 	"github.com/stretchr/testify/suite"
-	"github.com/kyokan/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/db"
 	"github.com/syndtr/goleveldb/leveldb"
 	"io/ioutil"
 	"github.com/stretchr/testify/require"
 	"testing"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"math/big"
-	"github.com/kyokan/plasma/test_util"
+	"github.com/ArtosSystems/plasma/test_util"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/kyokan/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/eth"
 		)
 
 var depositingAddr = common.HexToAddress("0x627306090abaB3A6e1400e9345bC60c78a8BEf57")

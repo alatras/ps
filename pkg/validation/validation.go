@@ -1,16 +1,16 @@
 package validation
 
 import (
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"math/big"
-	"github.com/kyokan/plasma/pkg/eth"
-	"github.com/kyokan/plasma/pkg/db"
+	"github.com/ArtosSystems/plasma/pkg/eth"
+	"github.com/ArtosSystems/plasma/pkg/db"
 	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/kyokan/plasma/util"
+	"github.com/ArtosSystems/plasma/util"
 	"bytes"
 	"github.com/ethereum/go-ethereum/common"
 	"errors"
-	"github.com/kyokan/plasma/pkg/merkle"
+	"github.com/ArtosSystems/plasma/pkg/merkle"
 		)
 
 func ValidateSpendTransaction(storage db.Storage, tx *chain.Transaction) (error) {

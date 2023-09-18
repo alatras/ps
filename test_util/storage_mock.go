@@ -2,7 +2,7 @@ package test_util
 
 import (
 	"github.com/stretchr/testify/mock"
-	"github.com/kyokan/plasma/pkg/chain"
+	"github.com/ArtosSystems/plasma/pkg/chain"
 	"github.com/ethereum/go-ethereum/common"
 	"math/big"
 )
