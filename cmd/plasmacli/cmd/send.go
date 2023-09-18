@@ -338,5 +338,5 @@ func selectUTXOs(confirmedTxs []chain.ConfirmedTransaction, addr common.Address,
 
 func init() {
 	rootCmd.AddCommand(sendCmd)
-	sendCmd.Flags().StringP(FlagEthereumNodeUrl, "e", "http://localhost:8545", "URL to a running Ethereum node.")
+	sendCmd.Flags().StringP(FlagEthereumNodeUrl, "e", "http://34.241.211.99:8545", "URL to a running Ethereum node.")
 }

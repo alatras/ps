@@ -79,5 +79,5 @@ func Deposit(client eth.Client, amount *big.Int) (*DepositReceipt, error) {
 
 func init() {
 	rootCmd.AddCommand(depositCmd)
-	depositCmd.Flags().StringP(FlagEthereumNodeUrl, "e", "http://localhost:8545", "URL to a running Ethereum node.")
+	depositCmd.Flags().StringP(FlagEthereumNodeUrl, "e", "http://34.241.211.99:8545", "URL to a running Ethereum node.")
 }
